@@ -1,0 +1,40 @@
+
+
+
+
+
+
+
+
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 30px;
+}
+
+
+
+.header-nav-list {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.header-nav-item {
+  list-style: none;
+  font-size: 20px;
+}
+
+.header-nav-item:not(:last-of-type){
+  margin-right: 100px;
+}
+
+.header-nav-item-link {
+  text-decoration: none;
+  color: #00277e;
+}
+

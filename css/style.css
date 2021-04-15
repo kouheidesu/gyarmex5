@@ -1,0 +1,91 @@
+
+
+.estra_logo{
+    background: url(../img/estra_logo.png) no-repeat
+     bottom;
+    background-size: contain;
+    height: 100px;
+    width: 100px;   
+    position: relative;
+    top: 0px;
+    left: 30px;
+}
+
+.header-nav-list {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    position: relatie; top:0px; right:30px;
+    text-align: right;
+  }
+  
+  .header-nav-item {
+    list-style: none;
+    font-size: 20px;
+  }
+  
+  .header-nav-item:not(:last-of-type){
+    margin-right: 20px;
+  }
+  
+  .header-nav-item-link {
+    text-decoration: none;
+    color: #808080;
+  }
+  
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.firstview{
+    background: url(../img/firstview.jpg) no-repeat bottom;
+    background-size: contain;
+    height: 700px;
+    width: 1000px;
+    text-align: right;
+}
+
+.about{
+    background: url(../img/about.jpg) no-repeat bottom;
+    background-size: contain;
+    height: 200px;
+    width: 200px;
+    text-align: right;
+}
+
+.blog_first{
+    background: url(../img/blog__first.jpg) no-repeat bottom;
+    background-size: contain;
+    height: 200px;
+    width: 200px;
+    text-align: right;
+}
+
+.recruit{
+    background:url(../img/recruit.png) no-repeat bottom;
+    background-size: contain;
+    height: 200px;
+}
+
+.interview{
+    background: url(../img/interview.png) no-repeat bottom;
+    background-size: contain;
+    height: 200px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    height: 70px;
+    padding: 0 30px;
+  }
+  
+  
+  
+  
+  
+  
