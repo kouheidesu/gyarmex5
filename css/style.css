@@ -78,6 +78,7 @@
       width:100px;
       padding:10px 0;
       position:absolute; top:800px; left:100px;
+      display: inline-block;
   }
   
 .f2 {
@@ -87,6 +88,7 @@
     border-radius :30px;
     background: #c06;
     text-align: center;  
+    
     
 }
 
