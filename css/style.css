@@ -74,32 +74,62 @@
     color: #808080;
   }
 
+  .d{
+      color:#c06;
+      font-size: 10px;
+      position:absolute; top:850px; left:300px;
+  }
+
+  .e{
+      color:#808080;
+      position: absolute; top:880px; left: 300px;
+      font-size: 30px;
+  }
+
   .f{
-      width:100px;
+      width:800px;
       padding:10px 0;
-      position:absolute; top:800px; left:100px;
-      display: inline-block;
+      position:absolute; top:1000px; left:100px;
+      display: flex;
   }
   
 .f2 {
     width:100px;
-    padding: 5px 5px;
+    padding: 0px 0px;
     color: #fff;
     border-radius :30px;
     background: #c06;
     text-align: center;  
-    
+
     
 }
 
+.l{
+    color: #c06;
+    font-size:5px;
+    position:absolute; top:1200px; right:300px;
 
+
+}
+
+.n{
+    color:#808080;
+    font-size: 20px;
+    position:absolute; top:1300px; right:300px;
+}
 
 .about{
     background: url(../img/about.jpg) no-repeat bottom;
     background-size: contain;
-    height: 200px;
-    width: 200px;
-    position: absolute; top:1000px; 
+    height: 400px;
+    width: 400px;
+    position: absolute; top:1500px; right:300px;
+}
+
+.m{
+    color:#808080;
+    font-size :10px;
+    position:absolute; top:1500px; left:300px;
 }
 
 .blog_first{
@@ -107,7 +137,7 @@
     background-size: contain;
     height: 200px;
     width: 200px;
-    position: absolute; top: 1500px;
+    position: absolute; top: 3000px;
 }
 
 .recruit{
@@ -115,7 +145,7 @@
     background-size: contain;
     height: 200px;
     width:300px;
-    position: absolute; top:2000px;
+    position: absolute; top:3500px;
 }
 
 .interview{
@@ -123,7 +153,7 @@
     background-size: contain;
     height: 200px;
     width: 300px;
-    position: absolute; top:2200px;
+    position: absolute; top:4000px;
 }
 
 
