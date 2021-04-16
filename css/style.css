@@ -1,24 +1,65 @@
-
+*{
+    padding: 0;
+    margin: 0;
+}
 
 .estra_logo{
     background: url(../img/estra_logo.png) no-repeat
      bottom;
     background-size: contain;
-    height: 100px;
-    width: 100px;   
+    height: 130px;
+    width: 130px;   
     position: relative;
-    top: 0px;
-    left: 30px;
+    top: -100px; left:30px;
+    
+  
 }
+
+
 
 .header-nav-list {
     display: flex;
     justify-content: space-between;
     font-weight: bold;
-    position: relatie; top:0px; right:30px;
-    text-align: right;
+    position: absolute; top:30px; right:30px;
   }
   
+  .firstview{
+    background: url(../img/firstview.jpg) no-repeat bottom;
+    background-size: contain;
+    position: absolute; top:70px; right:0px;
+    height: 700px;
+    width: 1000px;
+    
+    
+}
+
+  .a{
+    position: absolute; top:200px; left:280px;
+    font-size: 55px; color: #f3f;
+    font-family: cursive;
+  }
+
+  .font {
+      font-size: 55px; color: #0fc;
+  }
+
+  .b{
+    position: absolute; top:400px; left:280px;
+    font-size: 20px; color: #f3f;
+    font-family: cursive;
+  }
+
+  .font2{
+    font-size: 20px; color: #0fc;
+  }
+
+  .c{
+    position: absolute; top:430px; left:280px;
+    font-size: 15px; color: #808080;
+    font-family: cursive;
+  }
+
   .header-nav-item {
     list-style: none;
     font-size: 20px;
@@ -32,28 +73,31 @@
     text-decoration: none;
     color: #808080;
   }
+
+  .f{
+      width:100px;
+      padding:10px 0;
+      position:absolute; top:800px; left:100px;
+  }
   
-
-
-*{
-    padding: 0;
-    margin: 0;
+.f2 {
+    width:100px;
+    padding: 5px 5px;
+    color: #fff;
+    border-radius :30px;
+    background: #c06;
+    text-align: center;  
+    
 }
 
-.firstview{
-    background: url(../img/firstview.jpg) no-repeat bottom;
-    background-size: contain;
-    height: 700px;
-    width: 1000px;
-    text-align: right;
-}
+
 
 .about{
     background: url(../img/about.jpg) no-repeat bottom;
     background-size: contain;
     height: 200px;
     width: 200px;
-    text-align: right;
+    position: absolute; top:1000px; 
 }
 
 .blog_first{
@@ -61,28 +105,26 @@
     background-size: contain;
     height: 200px;
     width: 200px;
-    text-align: right;
+    position: absolute; top: 1500px;
 }
 
 .recruit{
     background:url(../img/recruit.png) no-repeat bottom;
     background-size: contain;
     height: 200px;
+    width:300px;
+    position: absolute; top:2000px;
 }
 
 .interview{
     background: url(../img/interview.png) no-repeat bottom;
     background-size: contain;
     height: 200px;
+    width: 300px;
+    position: absolute; top:2200px;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: right;
-    height: 70px;
-    padding: 0 30px;
-  }
+
   
   
   
