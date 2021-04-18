@@ -336,7 +336,7 @@
     background-color:rgba(245, 245, 245, 0.9);
     height: 500px;
     width:1500px;
-    position:absolute; top:3000px; left:0px;
+    position:absolute; top:2600px; left:0px;
     background-size: cover;
 }
 
@@ -347,7 +347,24 @@
     border-radius :30px;
     background: #c06;
     text-align: center;  
-    position:absolute; top:3100px; left:300px;
+    position:absolute; top:2800px;
+     left:300px;
+}
+
+.image{
+   display: flex;
+   justify-content:space-between;
+   width:100px;
+   height:100px;
+   background-size:cover;
+   position: absolute; top:3000px; left:300px;
+   width:40%;
+   
+   
+}
+
+.img-flex2 img{
+    width:1000px;
 }
 
 .recruit{
