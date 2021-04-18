@@ -248,7 +248,7 @@
 }
 
 .main3{
-    background-color:rgba(214, 34, 88, 0.247);
+    background-color:rgba(168, 11, 90, 0.9);
     height: 400px;
     width:500px;
     position:absolute; top:2100px; left:250px;
@@ -256,7 +256,7 @@
 }
 
 .main4{
-    background-color:rgba(212, 71, 165, 0.9);
+    background-color:rgba(199, 71, 135, 0.9);
     height: 200px;
     width:500px;
     position:absolute; top:2100px; right:270px;
@@ -275,62 +275,70 @@
 .service_first{
     background:url(../img/service__first.svg) no-repeat bottom;
     background-size: contain;
-    height: 170px;
-    width:240px;
-    position: absolute; top:2110px;left:370px;
+    height: 160px;
+    width:230px;
+    position: absolute; top:2130px;left:370px;
 }
 
 .service_first2{
     background:url(../img/service__first.svg) no-repeat bottom;
     background-size: contain;
-    height: 170px;
-    width:240px;    position: absolute; top:2110px;left:740px;
+    height: 160px;
+    width:230px;   
+     position: absolute; top:2110px;left:740px;
 }
 
 .service_first3{
     background:url(../img/service__first.svg) no-repeat bottom;
     background-size: contain;
-    height: 170px;
-    width:240px;
+    height: 160px;
+    width:230px;
     position: absolute; top:2310px;left:740px;
 }
 
 .w{
     color:#ffffff;
     font-size :15px;
-    position:absolute; top:2300px; left:455px;
+    position:absolute; top:2310px; left:455px;
 } 
 
  .x{
     color:#ffffff;
     font-size :15px;
-    position:absolute; top:2300px; left:455px;
+    position:absolute; top:2350px; left:335px;
 } 
   
   .y{
     color:#ffffff;
     font-size :15px;
-    position:absolute; top:2300px; left:455px;
+    position:absolute; top:2150px; left:950px;
 } 
   
   .z{
     color:#ffffff;
     font-size :15px;
-    position:absolute; top:2300px; left:455px;
+    position:absolute; top:2190px; left:950px;
 }  
 
   .aa{
     color:#ffffff;
     font-size :15px;
-    position:absolute; top:2300px; left:455px;
+    position:absolute; top:2350px; left:950px;
 } 
 
   .ab{
     color:#ffffff;
     font-size :15px;
-    position:absolute; top:2300px; left:455px;
+    position:absolute; top:2390px; left:950px;
 } 
   
+.main6{
+    background-color:rgba(245, 245, 245, 0.9);
+    height: 500px;
+    width:1500px;
+    position:absolute; top:3000px; left:0px;
+    background-size: cover;
+}
 
 .s{
     width:100px;
