@@ -208,7 +208,7 @@
 .main{
     background-color:rgba(245, 245, 245, 0.9);
     height: 500px;
-    width:1500px;
+    width:1520px;
     position:absolute; top:1400px; left:0px;
     background-size: cover;
 }
@@ -226,13 +226,6 @@
     font-weight:bold;
 }
 
-.main2{
-    background-color:rgba(245, 245, 245, 0.9);
-    height: 500px;
-    width:1500px;
-    position:absolute; top:2900px; left:0px;
-    background-size: cover;
-}
 
 
 
@@ -324,7 +317,7 @@
 .main6{
     background-color:rgba(245, 245, 245, 0.9);
     height: 500px;
-    width:1500px;
+    width:1520px;
     position:absolute; top:2600px; left:0px;
     background-size: cover;
 }
@@ -375,20 +368,26 @@
      height:150px;
      border-bottom-left-radius: 20px;
      border-bottom-right-radius: 20px;
-     font-size: 0.8em;
 }
 
-
+.txt_detail{
+    font-size:0.8em;
+}
 
 
 .aj{
     width:100px;
-    padding: 0px 10px;
-    color: #fff;
+    padding: 10px 20px;
+    color: #c06;
     border-radius :30px;
-    background: #c06;
+    background: #fff;
     text-align: center;  
     position:absolute;top:3030px; left:700px;
+    border-color:#c06;
+    border-width:3px;
+    border-style:solid;
+    font-size:15px;
+    font-style:solid;
 }
 
 .ac{
@@ -406,14 +405,7 @@
     font-weight:bold;
 }
 
-.ae{
-    color:#808080;
-    font-size: 30px;
-    position:absolute; top: 3350px; left:250px;
-    font-weight:bold;
-    list-style:none;
-    line-height:80px;
-}
+
 
 .af{
     color:#808080;
@@ -422,7 +414,19 @@
     font-weight:bold;
     list-style:none;
     line-height:80px;
+    font-size:25px;
 }
+
+table{
+    border-collapse: collapse;
+    color:#808080;
+    position:absolute; top: 3320px; left:250px;
+    font-weight:bold;
+    line-height:80px;
+    font-size:20px;
+} 
+
+
 
 .recruit{
     background:url(../img/recruit.png) no-repeat bottom;
