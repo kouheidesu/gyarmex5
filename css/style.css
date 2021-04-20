@@ -479,17 +479,41 @@ td{
 .recruit{
     background:url(../img/recruit.png) no-repeat bottom;
     background-size: contain;
-    height: 200px;
-    width:300px;
-    position: absolute; top:4500px;
+    height: 300px;
+    width:950px;
+    position: absolute; top:3770px; left:-100px;
+    vertical-align: baseline;
+    padding-left:0;
+    display: inline-block;
 }
 
 .interview{
     background: url(../img/interview.png) no-repeat bottom;
     background-size: contain;
-    height: 200px;
-    width: 300px;
-    position: absolute; top:5000px;
+    height: 300px;
+    width:950px;
+    position: absolute; top:3770px; left:650px;
+    display: block;
 }
 
 
+
+.img2{
+    background-size: cover;
+    position: absolute; top:3750px; left:0px;
+    display:flex;
+    width:1000px;
+    height:200px;
+}
+
+.img2-item{
+    width:1000px;
+    height:200px;
+    position: absolute; top:0px; left:0px;
+}
+
+.img2-item2{
+    width:300px;
+    height:200px;
+    position: absolute; top:0px; left:600px;
+}
