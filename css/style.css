@@ -547,7 +547,7 @@ td{
         border-radius: 30px;
         background: linear-gradient(90deg, #dd1b66, #88083d);
         text-align: center;
-        box-shadow: 0px 10px 5px rgba(12, 0, 9, 0.2);
+        box-shadow: 0px 10px 3px #993366;
         margin:100px auto 0;
         display:block;
         position:absolute;top:4190px; left:630px;
@@ -555,33 +555,75 @@ td{
 
 small{
     font-size:15px;
-    position:absolute; top:4410px; left:610px;
+    position:absolute; top:4460px; left:610px;
     text-align:center;
     color:#808080;
     display:block;
-    vertical-align: bottom;
+    
 }
 
 .background1{
     background-color:rgba(245, 245, 245, 0.9);
     height: 40px;
     width:1520px;
-    position:absolute; top:4400px; left:0px;
+    position:absolute; top:4450px; left:0px;
     background-size: cover;
     display:block;
-    vertical-align: bottom;
+    
 }
 
+.mail.icon {
+    color: #fff;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 110px;
+    width: 0px;
+    height: 0px;
+    border-radius: 1px;
+    border: solid 1px currentColor;
+  }
+  
+  .mail.icon:before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: -60px;
+    width: 1px;
+    height: 70px;
+    background-color: currentColor;
+    -webkit-transform-origin: bottom;
+            transform-origin: bottom;
+    -webkit-transform: rotate(-54deg);
+            transform: rotate(-54deg);
+  }
+  
+  .mail.icon:after {
+    content: '';
+    position: absolute;
+    left: 7px;
+    top: -4px;
+    width: 1px;
+    height: 10px;
+    background-color: currentColor;
+    -webkit-transform-origin: bottom;
+            transform-origin: bottom;
+    -webkit-transform: rotate(54deg);
+            transform: rotate(54deg);
+  }
 .al{
     color:#ffffff;
     font-size :40px;
-    position:absolute; top:3930px; left:300px;
+    position:absolute; top:3900px; left:300px;
+    margin:0;
+    padding:0;
 }
 
 .an{
     color:#ffffff;
     font-size :40px;
-    position:absolute; top:3930px; left:1000px;
+    position:absolute; top:3900px; left:1000px;
+    margin:0;
+    padding:0;
 }
 
 
