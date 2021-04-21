@@ -572,24 +572,25 @@ small{
     
 }
 
-.mail.icon {
+.mailicon {
     color: #fff;
-    position: absolute;
+    position: absolute;top:-90px; left:20px;
     margin-left: 10px;
     margin-top: 110px;
-    width: 0px;
-    height: 0px;
-    border-radius: 1px;
-    border: solid 1px currentColor;
+    width: 25px;
+    height: 20px;
+    border-radius: 5px;
+    border: solid 2px currentColor;
+
   }
   
-  .mail.icon:before {
+  .mailicon:before {
     content: '';
     position: absolute;
-    left: 20px;
-    top: -60px;
+    left: 13px;
+    top: -8px;
     width: 1px;
-    height: 70px;
+    height: 20px;
     background-color: currentColor;
     -webkit-transform-origin: bottom;
             transform-origin: bottom;
@@ -597,19 +598,49 @@ small{
             transform: rotate(-54deg);
   }
   
-  .mail.icon:after {
+  .mailicon:after {
     content: '';
     position: absolute;
-    left: 7px;
-    top: -4px;
+    left: 10px;
+    top: -8px;
     width: 1px;
-    height: 10px;
+    height: 20px;
     background-color: currentColor;
     -webkit-transform-origin: bottom;
             transform-origin: bottom;
     -webkit-transform: rotate(54deg);
             transform: rotate(54deg);
   }
+
+  .mailicon2:before{
+    content: '';
+    position: absolute;
+    left: 25px;
+    top: 3px;
+    width: 1px;
+    height: 15px;
+    background-color: currentColor;
+    -webkit-transform-origin: bottom;
+            transform-origin: bottom;
+    -webkit-transform: rotate(-54deg);
+            transform: rotate(-54deg);
+  }
+ 
+  .mailicon2:after {
+    content: '';
+    position: absolute;
+    left: -2px;
+    top: 3px;
+    width: 1px;
+    height: 15px;
+    background-color: currentColor;
+    -webkit-transform-origin: bottom;
+            transform-origin: bottom;
+    -webkit-transform: rotate(54deg);
+            transform: rotate(54deg);
+  }        
+
+
 .al{
     color:#ffffff;
     font-size :40px;
