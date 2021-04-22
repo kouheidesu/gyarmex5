@@ -10,7 +10,7 @@
     height: 130px;
     width: 130px;   
     position: relative;
-    top: -100px; left:30px;
+    top: -65px; left:30px;
     
   
 }
@@ -209,7 +209,7 @@
 .main{
     background-color:rgba(245, 245, 245, 0.9);
     height: 500px;
-    width:1520px;
+    width:100%;
     position:absolute; top:1400px; left:0px;
     background-size: cover;
 }
@@ -237,6 +237,7 @@
     width:500px;
     position:absolute; top:2100px; left:250px;
     background-size: cover;
+    display:flex;
 }
 
 .main4{
@@ -245,6 +246,7 @@
     width:500px;
     position:absolute; top:2100px; right:270px;
     background-size: cover;
+    display:flex;
 }
 
 .main5{
@@ -253,6 +255,7 @@
     width:500px;
     position:absolute; top:2300px; right:270px;
     background-size: cover;
+    display:flex;
 }
 
 
@@ -319,7 +322,7 @@
 .main6{
     background-color:rgba(245, 245, 245, 0.9);
     height: 500px;
-    width:1520px;
+    width:100%;
     position:absolute; top:2600px; left:0px;
     background-size: cover;
 }
@@ -512,7 +515,6 @@ td{
 
 .img2-item{
     background-size: cover;
-    position: absolute; top:0px; left:0px;
     display:flex;
     width:50%;
     height:50%;
@@ -520,7 +522,6 @@ td{
 
 .img2-item2{
     background-size: cover;
-    position: absolute; top:0px; left:760px;
     display:flex;
     width:50%;
     height:50%;
@@ -565,7 +566,7 @@ small{
 .background1{
     background-color:rgba(245, 245, 245, 0.9);
     height: 40px;
-    width:1520px;
+    width: 100%;
     position:absolute; top:4450px; left:0px;
     background-size: cover;
     display:block;
