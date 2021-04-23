@@ -512,25 +512,26 @@ td{
 
 .img2{
     background-size: cover;
-    position: absolute; top:3750px; left:0;
+    position:relative; top:3750px; left:0;
     display:flex;
-    width:100%;
-    
-    
-    
-    
+    width:100% ;
 }
 
 .img2-item{
     
-   width:50%;
-   
+    width:50% ;
+    
 }
 
 .img2-item2{
+    width:50% ;
+    position:absolute;left:50%;
+
     
-    width:50%;
+    
+
 }
+
 
 
 
