@@ -519,6 +519,10 @@ td{
     width:100% ;
 }
 
+img{
+    width:100%;
+}
+
 .img2-item{
     
     width:100%;
@@ -565,7 +569,7 @@ td{
         position:absolute;top:4200px; left:630px;
       }
 
-small{
+.small1{
     font-size:15px;
     position:absolute; top:4490px; left:40%;
     text-align:center;
