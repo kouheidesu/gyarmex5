@@ -20,6 +20,7 @@
     display: flex;
     justify-content: space-between;
     font-weight: bold;
+    margin-left:480px;
 
   }
   
@@ -544,6 +545,10 @@ img{
     padding:0;
 }
 
+.al p{
+    text-align: center;
+}
+
 .an{
     color:#ffffff;
     font-size :2vw;
@@ -555,10 +560,15 @@ img{
 
 .estra{
     font-size:25px;
-    position:absolute; top:4170px; left:510px;
+    position:absolute; top:4220px; left:50%;
     color:#808080;
  text-align:center;
+ 
+ transform: translate(-50%, -50%);
+ 
 }
+
+
 
 .bar{
     width:3px;
