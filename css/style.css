@@ -20,7 +20,7 @@
     display: flex;
     justify-content: space-between;
     font-weight: bold;
-    margin-left:480px;
+    margin-left:430px;
 
   }
   
@@ -537,17 +537,18 @@ img{
     margin-top: 50%;
     margin-left:50%;
 }
+
+.img2-item2-list{
+    position:absolute; top:50%; left:50%;
+    margin-top: 50%;
+    margin-left:50%;
+}
 .al{
     color:#ffffff;
     font-size :2vw;
-    
-    margin:0;
-    padding:0;
 }
 
-.al p{
-    text-align: center;
-}
+
 
 .an{
     color:#ffffff;
