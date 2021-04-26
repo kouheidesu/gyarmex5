@@ -8,7 +8,7 @@
     background: url(../img/estra_logo.png) no-repeat
      bottom;
     background-size: contain;
-    
+    height:50px;
     width: 130px;   
 
     
@@ -21,6 +21,8 @@
     justify-content: space-between;
     font-weight: bold;
     margin-left:430px;
+    position: absolute;
+    top: 25px;
 
   }
   
@@ -199,10 +201,12 @@
 
 .about{
     background: url(../img/about.jpg) no-repeat bottom;
-    background-size: contain;
-    height: 28%;
+    background-size: cover;
+    height: 20%;
     width: 28%;
-    position: absolute; top:110%; right:13%;
+    position: absolute;
+    top: 117%;
+    right: 13%;
 }
 
 
@@ -343,8 +347,11 @@
     font-weight:bold;
 }
 
+
+
 .car{
     display:flex;
+    justify-content: space-between;
 }
 
 .card{ 
@@ -422,7 +429,7 @@
 
 
 .aj{
-    width:100px;
+    
     padding: 10px 20px;
     color: #c06;
     border-radius :30px;
@@ -432,8 +439,11 @@
     border-color:#c06;
     border-width:3px;
     border-style:solid;
-    font-size:15px;
+    width:145px;
     font-style:solid;
+    left:0;
+    margin:auto;
+    right:0;
 }
 
 .ac{
