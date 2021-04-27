@@ -205,8 +205,8 @@
 .about{
     background: url(../img/about.jpg) no-repeat bottom;
     background-size: cover;
-    height: 20%;
-    width: 28%;
+    height: 20vw;
+    width: 28vw;
     position: absolute;
     top: 107%;
     right: 13%;
